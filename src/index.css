@@ -1,0 +1,40 @@
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+} */
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+@font-face {
+  font-family: "Urbanist";
+  src: local("Urbanist"),
+    url("./fonts/Urbanist/Urbanist-VariableFont_wght.ttf") format("truetype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Poppins";
+  src: local("Poppins"),
+    url("./fonts/Poppins/Poppins-Light.ttf") format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Epilogue";
+  src: local("Epilogue"),
+    url("./fonts/Epilogue/Epilogue-VariableFont_wght.ttf") format("truetype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Sora";
+  src: local("Sora"),
+    url("./fonts/Sora/Sora-VariableFont_wght.ttf") format("truetype");
+  font-weight: normal;
+}
+

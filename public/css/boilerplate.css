@@ -1,0 +1,277 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+	v2.0 | 20110126
+	License: none (public domain)
+*/
+html {
+  font-size: 62.5%;
+  /* changes a default 16px font size to 10px */
+}
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+  color: var(--text-color);
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out 0s;
+}
+button {
+  transition: all 0.3s ease-in-out 0s;
+}
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+/* ===== Scrollbar CSS ===== */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #dc1fff #dc1fff;
+}
+
+*::-webkit-scrollbar {
+  width: 5px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #0b0311;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #FBAE48;
+  border-radius: 10px;
+  border: 0px solid #ffffff;
+}
+
+body {
+  font-family: "Urbanist", sans-serif;
+  color: var(--text-color);
+  font-size: 1.7rem;
+  background: #030305;
+}
+img {
+  max-width: 100%;
+  vertical-align: top;
+}
+p {
+  line-height: 1.4;
+}
+input,
+select {
+  font-family: "Urbanist", sans-serif;
+  font-weight: normal;
+}
+
+:root {
+  /* --primary: #1e50ff; */
+  /* --primary:  linear-gradient(267.83deg, #FBAE48 6.21%, #F05C87 107.97%); */
+  --primary:  linear-gradient(90deg, #dc1fff 0%, #03e1ff 50%, #00ffa3 100%);
+  --text-color: #fafafa;
+  --green: #11d853;
+  --green25: rgb(17, 216, 83, 0.25);
+  --red: #ff3838;
+  --yellow: #d8ba11;
+}
+.owl-dots {
+}
+.owl-theme.owl-carousel .owl-dots {
+  margin-top: 52px !important;
+}
+.owl-theme.owl-carousel .owl-dots .owl-dot {
+  width: 17px;
+  height: 17px;
+  border: 2px solid currentColor;
+  border-radius: 100%;
+  margin: 0 4px;
+  position: relative;
+}
+.owl-theme.owl-carousel .owl-dots .owl-dot span {
+  position: absolute;
+  top: 3px;
+  bottom: 3px;
+  left: 3px;
+  right: 3px;
+  opacity: 0;
+  margin: 0;
+  background: currentColor !important;
+  width: auto;
+  height: auto;
+}
+.owl-theme.owl-carousel .owl-dots .owl-dot.active span {
+  opacity: 1;
+}
+
+.justify-center {
+  justify-content: center;
+}
+.mt-0 {
+  margin-top: 0px !important;
+}
+.mt-1 {
+  margin-top: 8px;
+}
+.mt-2 {
+  margin-top: 14px;
+}
+
+.floating-man {
+  animation-name: floating;
+  animation-duration: 3.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-out;
+}
+body .Toastify__toast-theme--dark {
+  background: rgb(0, 0, 0, 0.5);
+  backdrop-filter: blur(5px);
+  border-radius: 10px;
+}
+
+@keyframes floating {
+  from {
+    transform: translate(0, -0px);
+  }
+  65% {
+    transform: translate(0, -50px);
+  }
+  to {
+    transform: translate(0, 0px);
+  }
+}
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1400px) {
+  html {
+    font-size: 50%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .owl-theme.owl-carousel .owl-dots {
+    margin-top: 20px !important;
+  }
+}

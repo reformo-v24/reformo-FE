@@ -1,0 +1,1372 @@
+.main {
+  /* position: relative; */
+}
+
+.stake-banner {
+  /* background: url("../assets/banner.jpg"); */
+  background-size: 100% 100%;
+  display: grid;
+  align-items: center;
+  padding: 200px 0px 122px;
+  position: relative;
+}
+
+.row_cust {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.stake-banner-left h1 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 80px;
+  line-height: 90px;
+  color: #fff;
+  margin: 0px 0px 30px;
+  max-width: 552px;
+}
+
+.stake-banner-left h1 span {
+  color: #7bf5fb;
+}
+
+/* .stake-banner-left p a {
+    color: #fff;
+    font-family: Urbanist;
+    font-weight: 500;
+    font-size: 18px;
+} */
+
+.stake-banner-left p a svg {
+  color: #7bf5fb;
+  position: relative;
+  top: 2px;
+}
+
+.sfund-outer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sfund-box {
+  margin-right: 60px;
+}
+
+.sfund-box:last-child {
+  margin-right: 0px;
+}
+
+.sfund-box p {
+  font-family: Adrianna;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: rgb(255 255 255 / 70%);
+  margin: 0px 0px 5px;
+}
+
+.sfund-box h2 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 56px;
+  line-height: 67px;
+  color: #fff;
+  margin: 0px;
+}
+
+.counter-line {
+  font-size: 72px;
+  color: #7bf5fb;
+  font-family: Urbanist;
+  font-weight: bold;
+  line-height: 72px;
+  margin-bottom: 30px;
+  display: flex;
+}
+
+.counter-line span {
+  font-size: 22px;
+  margin-left: 7px;
+  margin-right: 7px;
+  font-weight: 500 !important;
+}
+
+.counter-line p {
+  font-size: 22px;
+  font-weight: 500 !important;
+  margin: 0px;
+  line-height: normal;
+  display: flex;
+  align-items: center;
+}
+
+p.new {
+  color: #fff;
+  font-family: Urbanist;
+  font-weight: 500 !important;
+  font-size: 18px;
+}
+
+p.new a {
+  color: #7bf5fb;
+}
+
+.hidden-outer svg {
+  margin-left: 10px;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+.hidden-outer {
+  position: relative;
+}
+
+.hidden-block {
+  opacity: 0;
+  position: absolute;
+  background-color: #13151c;
+  min-width: 250px;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.hidden-block h3 {
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.hidden-block h3 ul {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+}
+
+.hidden-block li {
+  list-style-type: none;
+  border-radius: 4px;
+  text-align: center;
+  margin-bottom: 5px;
+  color: #fff;
+  background-color: #242736;
+}
+
+.hidden-block li strike {
+  color: #89939e;
+}
+
+.hidden-outer svg:hover ~ .hidden-block {
+  opacity: 1;
+}
+
+p.buy-text {
+  font-family: Urbanist;
+  font-style: normal;
+  font-weight: bold !important;
+  font-size: 20px;
+  line-height: 24px;
+  color: #fff;
+  margin: 0px 0px 20px;
+}
+
+.stake-banner-top {
+  background: url("../assets/stake-frame-1.png");
+  background-size: 100% 100%;
+  max-width: 580px;
+  min-height: 111px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 40px 40px 30px;
+  margin-left: auto;
+}
+
+.stake-banner-top button {
+  font-family: Urbanist;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 43px;
+  color: rgb(255 255 255 / 70%);
+  margin-right: 30px;
+  background: none;
+  border: none;
+  position: relative;
+}
+
+.stake-banner-top button:last-child {
+  margin-right: 0px;
+}
+
+.stake-banner-top button svg {
+  font-size: 12px;
+}
+
+.stake-banner-top button span {
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 600;
+  color: #7bf5fb;
+  margin-left: 0px;
+  text-transform: capitalize;
+}
+
+.c-dropdown {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}
+
+.c-dropdown span {
+  display: flex;
+  align-items: center;
+  color: #7bf5fb;
+  font-family: Urbanist;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.c-dropdown span svg {
+  margin-left: 5px;
+}
+
+.cbox {
+  position: absolute;
+  top: 25px;
+  left: auto;
+  right: 0px;
+  max-width: 200px;
+  background-color: #13151c;
+  border-radius: 4px;
+  box-shadow: 0px 0px 10px 0px rgb(123 245 251 / 50%);
+}
+
+.cbox button {
+  font-size: 15px;
+  font-weight: normal;
+  padding: 10px 20px;
+  border: none;
+  border-bottom: 1px solid #424449;
+  width: 100%;
+  text-transform: capitalize;
+  background-color: transparent;
+  color: #fff;
+}
+
+.cbox button:hover {
+  background-color: #222;
+}
+
+.cbox button:hover {
+  color: #fff;
+}
+
+.cbox button:last-child {
+  border-bottom: none;
+}
+
+.stake-banner-top button.active {
+  color: #7bf5fb;
+}
+
+.stake-banner-bottom {
+  background-image: url("../assets/stake-frame-2.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  max-width: 580px;
+  min-height: 448px;
+  padding: 50px 40px;
+  margin-left: auto;
+  margin-top: -4px;
+}
+
+.farm-banner-bottom {
+  background-image: url("../assets/farm-frame-2.png");
+  padding-top: 20px;
+}
+
+.stake-banner-bottom label,
+.withdraw-box label {
+  width: 100%;
+  font-family: Urbanist;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  color: #fff;
+  margin: 0px 5px 10px;
+  display: block;
+}
+
+.withdraw-box label {
+  margin: 0px 0px 10px;
+}
+
+.choose-day-block {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.choose-day-block button {
+  width: calc(25% - 10px);
+  min-height: 60px;
+  background: rgba(54, 57, 79, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  box-sizing: border-box;
+  font-family: Adrianna;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  margin: 0px 5px 10px;
+}
+
+.choose-day-block button.active {
+  background: rgba(83, 65, 198, 0.5);
+  border: 1px solid #5341c6;
+  color: #7bf5fb;
+}
+
+.stake-banner-bottom .form-grp {
+  margin: 0px 5px 30px;
+  position: relative;
+}
+
+.withdraw-box .form-grp {
+  margin: 0px 0px 30px;
+}
+
+.stake-banner-bottom .form-control,
+.withdraw-box .form-control {
+  text-align: center;
+  font-family: Adrianna;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 60px;
+  background: rgba(54, 57, 79, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  box-sizing: border-box;
+  color: #fff;
+}
+
+.stake-banner-bottom .form-control::placeholder,
+.withdraw-box .form-control::placeholder {
+  color: rgb(255 255 255 / 30%);
+}
+
+.am-outer {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px -5px;
+}
+
+.am-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: calc(50% - 20px);
+  border-right: 1px solid #36394f;
+  margin: 0px 10px;
+  padding: 10px 20px 10px 0px;
+}
+
+.am-box:last-child {
+  border-right: 0px;
+  padding: 10px 0px;
+}
+
+.am-box label {
+  width: auto;
+  margin: 0px;
+}
+
+.am-box p {
+  font-family: Adrianna;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: #ffffff;
+  margin: 0px;
+}
+
+/* Start Popup Css */
+.buttonrow {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 30px;
+}
+
+.bystacking {
+  margin-top: 25px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #fff;
+  font-family: "Urbanist", sans-serif;
+  text-align: center;
+}
+
+.bystacking1 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #fff;
+  font-family: "Urbanist", sans-serif;
+  text-align: center;
+}
+
+.youare {
+  color: white;
+  margin-top: 22px;
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 700;
+  font-family: "Urbanist", sans-serif;
+  text-align: center;
+}
+
+.war {
+  color: white;
+  margin-top: 30px;
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 40px;
+  font-family: "Urbanist", sans-serif;
+  text-align: center;
+}
+
+.coloum {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.coloum .img {
+  width: 100px;
+}
+
+.approve-stake-btn1 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+  text-transform: capitalize;
+  background: #13141e;
+  font-family: "Urbanist", sans-serif;
+  font-style: normal;
+  padding: 12px 30px;
+  color: #7bf5fb;
+  border: 1px solid #7bf5fb;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: all 0.5s ease;
+}
+
+.approve-stake-btn1:hover {
+  background-color: #7bf5fb;
+  color: #13141e;
+}
+
+.approve-stake-btn2:hover {
+  opacity: 0.9;
+}
+
+.approve-stake-btn2 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+  font-family: "Urbanist", sans-serif;
+  font-style: normal;
+  padding: 14px 18px;
+  color: #7bf5fb;
+  background: linear-gradient(263.59deg, #343fa1 0%, #6350bb 100%);
+  border: none;
+  border-radius: 4px;
+  transition: all 0.5s ease;
+}
+
+/* End Popup Css */
+.approve-stake-btn {
+  background: url("../assets/big-btn_blue.png");
+  height: 60px;
+  width: 100%;
+  background-size: 100% 100%;
+  border: 0px;
+  font-size: 18px;
+  line-height: 23px;
+  text-transform: capitalize;
+  font-family: "Urbanist", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  padding: 17px 13px;
+  color: #7bf5fb;
+  text-decoration: none;
+  border-radius: 0px;
+  margin: 0px 5px 0px 5px;
+  max-width: -webkit-fill-available;
+  transition: all 0.5s ease;
+}
+
+.farm-banner-bottom .approve-stake-btn {
+  margin: 0px;
+}
+
+.approve-stake-btn:hover {
+  background: url("../assets/big-border-btn.png");
+  background-size: 100% 100%;
+}
+
+.button-list .approve-stake-btn:hover {
+  background: url("../assets/cancel-btn.png");
+  background-size: 100% 100%;
+}
+
+.border-stake-btn {
+  background: url("../assets/big-border-btn.png");
+  height: 60px;
+  width: 100%;
+  background-size: 100% 100%;
+  border: 0px;
+  font-size: 18px;
+  line-height: 23px;
+  text-transform: capitalize;
+  font-family: "Urbanist", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  padding: 17px 13px;
+  color: #7bf5fb;
+  text-decoration: none;
+  border-radius: 0px;
+  margin: 0px 0px 20px 0px;
+  max-width: -webkit-fill-available;
+  transition: all 0.5s ease;
+}
+
+.currency-box {
+  font-family: Adrianna;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 60px;
+  background: rgba(54, 57, 79, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  box-sizing: border-box;
+  color: #7bf5fb;
+  margin: 0px 0px 30px;
+}
+
+.withdraw-locked {
+  background: url("../assets/withdraw-locked.png");
+  height: 60px;
+  width: 100%;
+  background-size: 100% 100%;
+  border: 0px;
+  font-size: 18px;
+  line-height: 23px;
+  text-transform: capitalize;
+  font-family: "Urbanist", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  padding: 17px 13px;
+  color: #7bf5fb;
+  text-decoration: none;
+  border-radius: 0px;
+  margin: 0 10px 0 0;
+  transition: all 0.5s ease;
+  opacity: 0.5;
+  pointer-events: none;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button:focus,
+input:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.customModal2 {
+  /* max-width: 440px !important; */
+  width: 340px !important;
+  min-width: fit-content;
+  max-height: 100%;
+  /* overflow: auto; */
+  padding: 25px !important;
+  border-radius: 25px;
+  backdrop-filter: blur(8px) brightness(1.2);
+  background-color: rgb(255, 255, 255, 0.12) !important;
+}
+
+.customModal2.warn {
+  background-image: linear-gradient(
+    180deg,
+    #1d2b32 0%,
+    #13151c 66.15%
+  ) !important;
+  border: 1px solid #33f9fd;
+  border-radius: 8px;
+  padding: 30px 50px 50px !important;
+  max-width: 550px !important;
+}
+
+.customModal2.warn .react-responsive-modal-closeButton {
+  display: none;
+}
+
+.react-responsive-modal-container {
+  background-color: rgb(19 20 30 / 80%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.customModal2 .react-responsive-modal-closeButton {
+  top: 0px;
+}
+
+.withdraw-box h2 {
+  color: #fff;
+  font-size: 36px;
+  line-height: 43px;
+  font-family: "Urbanist";
+  font-weight: 700;
+  margin: 0px 0px 20px;
+  text-align: center;
+}
+
+.customModal2 .withdraw-box h2 {
+  text-align: left;
+}
+
+.withdraw-box p {
+  font-family: Adrianna;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #ffffff;
+  margin: 5px auto 15px;
+  max-width: 277px;
+  width: 100%;
+}
+
+.withdraw-box p a {
+  color: #7bf5fb;
+  text-decoration: underline;
+}
+
+.withdraw-box p a:focus {
+  outline: none;
+}
+
+.withdraw-box p.text-left {
+  text-align: left;
+  max-width: fit-content;
+  margin-bottom: 0px;
+}
+
+.withdraw-box .approve-stake-btn {
+  background-image: url("../assets/confirm-btn.png");
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.withdraw-box .approve-stake-btn:hover {
+  background-image: url("../assets/confirm-border.png");
+}
+
+.customModal3 {
+  background: transparent !important;
+  padding: 0px !important;
+}
+
+.wth-Frame-1 {
+  max-width: 440px !important;
+  width: 100%;
+  min-width: fit-content;
+  max-height: 100%;
+  min-height: 151px;
+  overflow: auto;
+  background: url("../assets/wth-frame-1.png");
+  background-size: 100% 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wth-Frame-2 {
+  max-width: 440px !important;
+  width: 100%;
+  min-width: fit-content;
+  max-height: 100%;
+  min-height: 217px;
+  overflow: auto;
+  background: url("../assets/wth-frame-2.png");
+  background-size: 100% 100%;
+  padding: 50px 40px 60px;
+  background-repeat: no-repeat;
+}
+
+.customModal4 {
+  background: transparent !important;
+  padding: 0px !important;
+  min-width: 443px;
+}
+
+.customModal5 .withdraw-box h2 {
+  margin-bottom: 0px;
+}
+
+.customModal5 {
+  background: transparent !important;
+  padding: 0px !important;
+  min-width: 443px;
+}
+
+.customModal5 .wth-Frame-1 {
+  background-image: url("../assets/stake-fail-frame-1.png");
+}
+
+.customModal5 .wth-Frame-2 {
+  background-image: url("../assets/stake-fail-frame-2.png");
+}
+
+.success-notification,
+.error-notification,
+.process-notification {
+  position: fixed;
+  bottom: -20px;
+  right: 20px;
+  z-index: 9999;
+  display: inline-block;
+}
+
+.success-notification-inner {
+  max-width: 300px !important;
+  width: 100%;
+  min-width: 300px;
+  max-height: 100%;
+  min-height: 115px;
+  overflow: auto;
+  background-image: url("../assets/success-notification-frame.png");
+  background-size: 100% 100%;
+  padding: 20px 30px;
+  background-repeat: no-repeat;
+}
+
+.error-notification-inner {
+  max-width: 300px !important;
+  width: 100%;
+  min-width: 300px;
+  max-height: 100%;
+  min-height: 115px;
+  overflow: auto;
+  background-image: url("../assets/error-notification-frame.png");
+  background-size: 100% 100%;
+  padding: 20px 30px;
+  background-repeat: no-repeat;
+}
+
+.process-notification-inner {
+  max-width: 300px !important;
+  width: 100%;
+  min-width: 300px;
+  max-height: 100%;
+  min-height: 115px;
+  overflow: auto;
+  background-image: url("../assets/process-notification-frame.png");
+  background-size: 100% 100%;
+  padding: 20px 30px;
+  background-repeat: no-repeat;
+}
+
+.success-notification-inner .close-img,
+.error-notification-inner .close-img,
+.process-notification-inner .close-img {
+  position: absolute;
+  top: 10px;
+  right: 27px;
+}
+
+.success-notification-inner h3,
+.error-notification-inner h3,
+.process-notification-inner h3 {
+  font-family: Urbanist;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  color: #ffffff;
+  margin: 0px 0px 5px;
+}
+
+.success-notification-inner p,
+.error-notification-inner p,
+.process-notification-inner p {
+  font-family: Adrianna;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+}
+
+.success-notification-inner p a,
+.error-notification-inner p a,
+.process-notification-inner p a {
+  color: #7bf5fb;
+  text-decoration: underline;
+}
+
+.process-notification-inner .loader-img {
+  border: 2px solid rgb(255 255 255 / 10%);
+}
+
+.num50 {
+  width: calc(50% - 10px) !important;
+}
+
+.hero-btn {
+  background: url(../assets/h-btn-bg.png);
+  height: 60px;
+  width: 200px;
+  background-size: 100% 100%;
+  min-width: 200px;
+  border: 0;
+  font-size: 18px;
+  line-height: 23px;
+  text-transform: capitalize;
+  font-family: Urbanist, sans-serif;
+  padding: 17px 13px;
+  color: #7bf5fb;
+  text-decoration: none;
+  border-radius: 0;
+  margin: 0 10px 10px 0;
+  transition: all 0.5s ease;
+  display: inline-block;
+  text-align: center;
+}
+
+.hero-btn:hover {
+  background: url(../assets/btn-bg.png);
+  background-size: 100% 100%;
+  border-radius: 0;
+}
+
+/*******farming page css starts******/
+.pool-title {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.pool-title h3 {
+  font-family: Urbanist;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 34px;
+  color: #ffffff;
+  margin: 0px;
+}
+
+.calc-div svg,
+.balance-bar svg {
+  padding-left: 5px;
+  color: #7bf5fb;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.calc-div {
+  margin-top: 10px !important;
+  margin-left: 0px !important;
+}
+
+.calc-div,
+.balance-bar {
+  display: flex !important;
+  align-items: center;
+}
+
+.pool-title p {
+  font-family: Urbanist;
+  font-style: normal;
+  font-weight: bold !important;
+  font-size: 28px;
+  line-height: 34px;
+  color: #7bf5fb;
+  margin: 0px;
+}
+
+.pool-title p.pt-right {
+  text-align: right;
+}
+
+.pool-title p span {
+  color: #fff;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.farm-row {
+  padding: 10px 0px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.farm-row:last-child {
+  border-bottom: none;
+}
+
+.farm-row p {
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px;
+  font-family: Urbanist;
+  font-style: normal;
+  font-weight: bold !important;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.farm-row p span {
+  font-weight: 500;
+}
+
+.farm-row.no-border {
+  border-bottom: none;
+}
+
+.custom-progressbar {
+  margin: 0px 0px 20px;
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  border-radius: 2px;
+  padding: 2px;
+  display: flex;
+  align-items: center;
+}
+
+.bar {
+  cursor: pointer;
+  display: inline-block;
+  width: 2%;
+  padding: 0;
+  height: 22px;
+  background: transparent;
+  border-radius: 5px;
+  border: 1px solid #13151c;
+}
+
+.bar.active {
+  background: #7bf5fb;
+}
+
+.button-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* margin: 0px 5px; */
+}
+
+.button-list button {
+  width: calc(50% - 10px);
+  margin: 0px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-family: Urbanist;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  background-image: url(../assets/stake-unstake-frame.png);
+}
+
+.button-list button.cancel_btn {
+  background-image: url(../assets/cancel-btn.png);
+  color: #7bf5fb;
+  border: none;
+  background-color: transparent;
+}
+
+.harvest-btn {
+  border-radius: 4px;
+  background-color: #7bf5fb;
+  color: #000;
+  font-family: Urbanist;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  border: none;
+  text-transform: uppercase;
+  box-shadow: 0px 0px 5px 1px #313131;
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.alert-outer {
+  display: flex !important;
+  align-items: center;
+}
+
+.alert-btn {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  color: orangered;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.alert-btn-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.harvest-btn svg,
+.alert-btn svg,
+.alert-btn-2 svg {
+  font-size: 16px;
+  line-height: 20px !important;
+  cursor: pointer;
+  margin-left: 5px;
+  color: orange;
+}
+
+.harvest-btn svg:focus,
+.alert-btn svg:focus,
+.alert-btn-2 svg:focus {
+  outline: none;
+}
+
+.alert-btn svg,
+.alert-btn-2 svg {
+  margin-left: 5px;
+}
+
+.custom-tooltip {
+  width: 300px;
+}
+
+.farm-banner-bottom .form-grp {
+  margin: 0px 0px 30px;
+}
+
+.popup-form .form-grp {
+  position: relative;
+}
+
+.stake-banner-bottom .form-grp button,
+.popup-form .form-grp button {
+  position: absolute;
+  top: 10px;
+  right: 11px;
+  background: #7bf5fb;
+  border-radius: 2px;
+  font-family: Urbanist;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #13141e;
+  border: none;
+  padding: 10px 15px;
+}
+
+.balance-bar {
+  align-items: center;
+  display: flex !important;
+  width: 100%;
+  font-family: Urbanist;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  color: #fff;
+  margin: 0px 5px 10px;
+}
+
+.loader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  /* min-height: 300px; */
+  max-width: 580px;
+  margin-left: auto;
+}
+
+/*******farming page css ends******/
+
+/****responsive css*****/
+@media (max-width: 1366px) {
+  .stake-banner-left h1 {
+    font-size: 65px;
+    line-height: 78px;
+  }
+
+  .counter-line {
+    display: block;
+  }
+}
+
+@media (max-width: 992px) {
+  .counter-line p {
+    font-size: 18px;
+  }
+
+  .loader {
+    max-width: 100%;
+  }
+
+  .stake-banner {
+    padding: 60px 0px 80px;
+    background-size: auto 67%;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+  }
+
+  .stake-banner .w-50 {
+    width: 100% !important;
+  }
+
+  .stake-banner-left {
+    margin-top: 80px;
+    margin-bottom: 80px;
+  }
+
+  .stake-banner-left h1 {
+    max-width: 100%;
+    font-size: 50px;
+    line-height: 67px;
+  }
+
+  .stake-banner-top {
+    max-width: 100%;
+    background-image: url("../assets/tablet-stake-frame-1.png");
+  }
+
+  .stake-banner-bottom {
+    max-width: 100%;
+    background-image: url("../assets/tablet-stake-frame-2.png");
+    margin-top: 0px;
+  }
+}
+
+@media (max-width: 640px) {
+  .counter-line {
+    font-size: 40px;
+  }
+
+  .hidden-block {
+    right: 0px;
+  }
+
+  .stake-banner-left h1 {
+    font-size: 36px;
+    line-height: 43px;
+  }
+
+  .sfund-box {
+    margin-right: 35px;
+  }
+
+  .sfund-box h2 {
+    font-size: 36px;
+    line-height: 43px;
+  }
+
+  .stake-banner-left {
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+
+  .stake-banner-top {
+    padding: 30px 20px;
+    background-image: url("../assets/mobile-stake-frame-1.png");
+  }
+
+  .stake-banner-top button span {
+    font-size: 15px;
+  }
+
+  .stake-banner-top button {
+    font-size: 24px;
+    padding-left: 0px;
+    margin-right: 10px;
+  }
+
+  .cbox {
+    right: 0px;
+    left: auto;
+  }
+
+  .cbox button {
+    font-size: 15px;
+  }
+
+  .stake-banner-bottom {
+    padding: 30px 20px;
+    background-image: url("../assets/mobile-stake-frame-2.png");
+  }
+
+  .choose-day-block,
+  .currency-box {
+    margin-bottom: 10px;
+  }
+
+  .am-box {
+    padding: 20px 0px;
+    width: 100%;
+    border-bottom: 1px solid #36394f;
+    border-right: none;
+  }
+
+  .am-box:last-child {
+    padding: 20px 0px;
+    border-bottom: none;
+  }
+
+  .withdraw-locked {
+    padding: 8px 13px;
+  }
+
+  .choose-day-block button {
+    width: calc(50% - 10px);
+    margin: 0px 5px 10px;
+  }
+
+  /* .button-list {
+        display: block;
+    } */
+
+  .button-list button {
+    width: calc(50% - 5px);
+  }
+}
+
+@media (max-width: 480px) {
+  .customModal2 {
+    max-width: 400px !important;
+    margin: 0px;
+    padding: 30px 20px 40px !important;
+  }
+
+  .customModal2.warn {
+    padding: 30px 20px 40px !important;
+  }
+
+  .approve-stake-btn1,
+  .approve-stake-btn2 {
+    padding: 10px;
+  }
+
+  .customModal4,
+  .customModal5 {
+    max-width: 400px !important;
+    margin: 0px;
+    min-width: 400px;
+  }
+
+  .customModal4 .wth-Frame-1,
+  .customModal4 .wth-Frame-2,
+  .customModal5 .wth-Frame-1,
+  .customModal5 .wth-Frame-2 {
+    max-width: 400px !important;
+    min-width: 400px;
+  }
+
+  .customModal4 .wth-Frame-2,
+  .customModal5 .wth-Frame-2 {
+    padding: 40px 20px !important;
+  }
+
+  .withdraw-box h2 {
+    font-size: 28px;
+  }
+
+  .withdraw-box p {
+    margin-top: 0px;
+  }
+
+  .pool-title {
+    display: block;
+  }
+
+  .pool-title p.pt-right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .stake-banner-bottom .form-control,
+  .popup-form .form-control {
+    text-align: left;
+    padding-left: 10px;
+  }
+}
+
+@media (max-width: 414px) {
+  .pool-title p {
+    font-size: 22px;
+  }
+
+  .customModal2 {
+    max-width: 300px !important;
+  }
+
+  .customModal4,
+  .customModal5 {
+    max-width: 300px !important;
+    min-width: 300px;
+  }
+
+  .customModal4 .wth-Frame-1,
+  .customModal4 .wth-Frame-2,
+  .customModal5 .wth-Frame-1,
+  .customModal5 .wth-Frame-2 {
+    max-width: 300px !important;
+    min-width: 300px;
+  }
+
+  .success-notification,
+  .error-notification,
+  .process-notification {
+    right: 10px;
+  }
+}

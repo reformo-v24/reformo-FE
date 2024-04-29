@@ -1,0 +1,151 @@
+.about_project {
+  background: transparent;
+  padding: 10px 0 60px 0;
+}
+
+.content_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 30px;
+  /* padding: 20px 0px; */
+  width: 100%;
+}
+.inner_about_project h3 {
+  font-family: Urbanist;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 36px;
+  color: #ffffff;
+}
+.content_grid .content span {
+  color: #fff;
+  font-size: 16px;
+}
+.content {
+  padding: 16px 0px;
+}
+.content p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+  color: #ffffff;
+  margin-bottom: 28px;
+}
+.content p strong {
+  display: block;
+  margin-bottom: 10px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #ffffff;
+  opacity: 0.5;
+}
+.content p span {
+  display: block;
+  position: relative;
+  margin-top: 14px;
+  padding-left: 36px;
+}
+.content p span .avtr {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.l_inks ul li a {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+  color: #ffffff;
+  opacity: 0.5;
+}
+.l_inks ul {
+  list-style: none;
+  padding: 15px 0 0 0px;
+}
+.l_inks ul li {
+  margin-bottom: 8px;
+}
+.l_inks ul li a:hover {
+  color: #37419f;
+  opacity: 1;
+}
+.whitepaper-btn .border-btn {
+  background: url("../../images/border-btn.png");
+  width: 200px;
+  height: 60px;
+  color: #7bf5fb;
+  font-size: 18px;
+  border: 0;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-family: "Urbanist", sans-serif;
+  background-size: 100% 100%;
+  display: inline-block;
+  text-align: center;
+  line-height: 60px;
+  text-decoration: none;
+}
+.whitepaper-btn .border-btn:hover {
+  background: url("../../images/btn_blue.png");
+  background-size: 100% 100%;
+  transition: all 0.5s ease;
+}
+@media (max-width: 767px) {
+  .pool_grid {
+    grid-template-columns: auto;
+    grid-gap: 25px;
+  }
+  .banner h1 {
+    font-size: 35px;
+  }
+  .navi_gation .gen_btn {
+    padding: 10px 10px;
+    min-width: 68px;
+    font-size: 10px;
+    line-height: 10px;
+  }
+  .navi_gation .gen_btn.btn_white {
+    margin-right: 2px;
+  }
+  .inner_pool_details {
+    grid-template-columns: auto;
+  }
+  .content_grid {
+    grid-template-columns: auto;
+  }
+}
+@media (max-width: 460px) {
+  .logo img {
+    width: 100%;
+  }
+  .inner_header {
+    grid-template-columns: 130px auto;
+  }
+  .ti_tle {
+    grid-template-columns: 65px auto;
+  }
+}
+@media (max-width: 385px) {
+  .navi_gation .gen_btn {
+    padding: 4px 5px;
+    font-size: 9px;
+  }
+  .navi_gation {
+    display: grid;
+    grid-gap: 4px;
+  }
+  .logo img {
+    max-width: 130px;
+  }
+  .inner_header {
+    grid-template-columns: auto 110px;
+  }
+}
